@@ -91,6 +91,7 @@ var fight = function(enemy) {
         else {
         window.alert(playerInfo.name + " still has " + playerInfo.health + " health left.");
     }
+}
     // switch turn order for next round
     isPlayerTurn = !isPlayerTurn;
   }
